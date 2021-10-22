@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+body {
+  background-color: #202124;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  padding: 1rem 2rem;
+}
+
+.nav-items {
+  /* background-color: maroon; */
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 2rem;
+}
+
+.app-icon {
+  font-size: 2rem;
+  padding: none;
+  display: block;
+}
+
+.user-image {
+  border-radius: 50%;
+  height: 3rem;
+  display: block;
+}
+
+.main-area {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 21rem;
+}
+
+.main-logo {
+  height: 9rem;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  background-color: inherit;
+  border-radius: 25px;
+  border: 0.1px solid #fff;
+  padding: 1.4rem;
+  width: 30%;
+}
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #303134;
+  padding: 1.2rem 2.4rem;
+  border-radius: 5px;
+}
+
+.btn:hover,
+.btn:active {
+  text-decoration: none;
+}
+
+.languages {
+  display: flex;
+  gap: 7px;
+}
+
+.language-option {
+  color: #74c0fc;
+}
+
+.location {
+  padding-top: 37rem;
+}
+
+.current-location {
+  color: #868e96;
+  background-color: #171717;
+  padding: 2rem 4rem;
+}
+
+.footer-row {
+  color: #868e96;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: start;
+
+  padding: 0 4rem;
+  background-color: #171717;
+}
+
+.first {
+  gap: 2rem;
+  display: flex;
+}
+
+.second {
+  gap: 2rem;
+  align-content: flex-end;
+  display: flex;
+}
+
+.footer-row li {
+  padding: 2rem 0;
+}
+
+/* - Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
